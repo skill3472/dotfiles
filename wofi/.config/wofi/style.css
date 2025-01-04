@@ -1,0 +1,30 @@
+* {
+    border-radius: 3px;
+    border: none;
+}
+
+window {
+    font-size: 18px;
+    background-color: rgba(34, 34, 34, 1);
+    color: white;
+    margin: 5px;
+}
+
+#entry {
+    padding: 0.25em;
+}
+
+#entry:selected {
+    background-color: #E78A4E;
+    color: #222222;
+}
+
+#text:selected {
+    color: #222222;
+}
+
+#input {
+    background-color: #222222;
+    color: white;
+    padding: 0.25em;
+}
