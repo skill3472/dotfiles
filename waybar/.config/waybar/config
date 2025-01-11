@@ -70,7 +70,8 @@
 
     "format": "<span color='#222222' bgcolor='#f6c657' >  </span> {}",
     "format-pl": "pl",
-    "format-en": "en"
+    "format-en": "en",
+    "on-click": "hyprctl switchxkblayout AT-Translated-Set-2-keyboard next",
     }, 
 
   "hyprland/window": {
