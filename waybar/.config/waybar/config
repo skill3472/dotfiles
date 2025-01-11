@@ -18,7 +18,7 @@
   "modules-right": [
     "disk",
     "cpu",
-    "backlight",
+    "hyprland/language",
     "memory",
     "pulseaudio",
     "battery",
@@ -65,6 +65,13 @@
     "format": "{name}",
     "format-icons": {}
   },
+
+   "hyprland/language": {
+
+    "format": "<span color='#222222' bgcolor='#f6c657' >  </span> {}",
+    "format-pl": "pl",
+    "format-en": "en"
+    }, 
 
   "hyprland/window": {
     "format": "<span color='#222222' bgcolor='#d3869b' >  </span> {title}",

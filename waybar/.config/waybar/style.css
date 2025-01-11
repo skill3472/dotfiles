@@ -202,9 +202,9 @@ window#waybar.hidden {
 }
 
 /* ================================ */
-/*            backlight             */
+/*            language              */
 /* ================================ */
-#backlight {
+#language {
   font-family: IosevkaTerm Nerd Font Propo;
   font-size: 15px;
   font-weight: 800;
