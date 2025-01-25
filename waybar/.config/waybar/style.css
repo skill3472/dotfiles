@@ -148,10 +148,10 @@ window#waybar.hidden {
 }
 
 /* ================================ */
-/*            disk                 */
+/*            network               */
 /* ================================ */
 
-#disk {
+#network {
   font-family: IosevkaTerm Nerd Font Propo;
   font-size: 15px;
   font-weight: 800;

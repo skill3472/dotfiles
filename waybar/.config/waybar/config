@@ -16,7 +16,7 @@
   "modules-center": ["clock"],
 
   "modules-right": [
-    "disk",
+    "network",
     "cpu",
     "hyprland/language",
     "memory",
@@ -144,11 +144,12 @@
     "format-critical": "<span color='#222222' bgcolor='#cc241d' > {icon} </span> {capacity}%!!",
     "format-warning": "<span color='#222222' bgcolor='#e78a4e' > {icon} </span> {capacity}%",
     "format-full": "<span color='#222222' bgcolor='#689d6a' > {icon} </span> {capacity}%",
-    "format-charging": "<span color='#222222' bgcolor='#689d6a' ></span> {capacity}%",
-    "format-charging-warning": "<span color='#222222' bgcolor='#e78a4e' ></span> {capacity}%",
-    "format-charging-critical": "<span color='#222222' bgcolor='#cc241d' ></span> {capacity}%",
-    "format-plugged": "<span color='#222222' bgcolor='#689d6a' ></span> {capacity}%",
-    "format-alt": "<span color='#222222' bgcolor='#689d6a'  >  </span> {time}",
+    "format-charging": "<span color='#222222' bgcolor='#689d6a' >  </span> {capacity}%",
+    "format-charging-warning": "<span color='#222222' bgcolor='#e78a4e' >  </span> {capacity}%",
+    "format-charging-critical": "<span color='#222222' bgcolor='#cc241d' >  </span> {capacity}%",
+    "format-plugged": "<span color='#222222' bgcolor='#689d6a' >  </span> {capacity}%",
+    "format-alt": "<span color='#222222' bgcolor='#689d6a'  >  </span> {time}", 
+    "format-charging-alt": "<span color='#222222' bgcolor='#689d6a' >  </span> {time}",
     "tooltip": false
   },
 
@@ -157,5 +158,14 @@
     "format": "<span color='#222222' bgcolor='#8ec07c' >  </span> {:%a %d %b %H:%M:%S}",
     "tooltip": false,
     "interval":1,
+  },
+
+  "network": {
+    "interval": 60,
+    "format" : "<span color='#222222' bgcolor='#ea6962' >  </span> {essid}",
+    "format-ethernet" : "<span color='#222222' bgcolor='#ea6962' >  </span> {essid}",
+    "format-wifi" : "<span color='#222222' bgcolor='#ea6962' >  </span> {essid}",
+    "format-disconnected" : "<span color='#222222' bgcolor='#ea6962' >  </span> Down",
+    "on-click" : "kitty nmtui"
   }
 }
