@@ -123,7 +123,7 @@
     "format-bluetooth": "<span color='#222222' bgcolor='#83a598' > 󰂰 </span> {volume}%",
     "format-bluetooth-muted": "<span color='#222222' bgcolor='#ea6962' >  </span> {volume}%",
     "format-source": "{volume}% ",
-    "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+    "on-click": "pavucontrol",
     "tooltip": false,
     "max-volume": 130
   },
