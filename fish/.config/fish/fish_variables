@@ -14,6 +14,7 @@ SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ejethrokuan/z\x1ejorgebucaran/hydr
 SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR _hydro_git_10146:master\x20
 SETUVAR _hydro_git_10332:master\x20
+SETUVAR _hydro_git_12948:master\u2022\x20
 SETUVAR _hydro_git_15805:master\x20
 SETUVAR _hydro_git_17055:master\x20
 SETUVAR _hydro_git_18537:master\x20
@@ -43,6 +44,7 @@ SETUVAR _hydro_git_5610:master\u2022\x20
 SETUVAR _hydro_git_6074:master\u2022\x20
 SETUVAR _hydro_git_6147:master\u2022\x20
 SETUVAR _hydro_git_6166:master\x20
+SETUVAR _hydro_git_6225:master\u2022\x20
 SETUVAR _hydro_git_6280:master\x20
 SETUVAR _hydro_git_6492:master\u2022\x20
 SETUVAR _hydro_git_6577:master\x20

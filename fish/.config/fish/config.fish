@@ -8,8 +8,9 @@ if status is-interactive && not set -q TMUX
 	export hydro_color_pwd=green
 	export PATH=/usr/bin/:/opt/jdk-18.0.2/bin/:/usr/bin/idea/bin/:/home/skill/.local/bin/
 
-	tmux new-session -A -s main
-	kill $KITTY_PID
+	# Tmux auto-run - disabled, since I prefer it like this for now.
+	#tmux new-session
+	#kill $KITTY_PID
 end
 
 function y
