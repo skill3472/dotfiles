@@ -206,6 +206,6 @@ exec mako # notifications
 exec nm-applet --indicator # network tray
 exec waybar # status bar
 exec kanshi # multi-monitor setup
-
+exec blueman-applet # bluetooth
 
 include /etc/sway/config.d/*
